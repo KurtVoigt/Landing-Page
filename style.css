@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+body > *{
+    height: 40vh;
+}
+
+#top{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 50vh;
+    
+    
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+#logo{
+    font-size: 24px;
+    
+}
+
+#descriptionAndPhoto{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 6;
+    align-items: center;
+}
+
+#description{
+    display: flex;
+    flex-direction: column;
+}
+
+#descriptionHeader{
+    font-size: 48px;
+    font-weight: bolder;   
+    color: #f9faf8;
+}
+
+#descriptionText{
+
+}
+
+.signUpButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+    font-size: large;
+    background-color: #3882f6;
+    width: 75px;
+    height: 32px;
+    border-radius: 10px;
+}
+
+
+
+#linksContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px
+    
+}
+
+a{
+    text-decoration: none;
+    color:#f9faf8
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#fifthFooter
+{
+    flex: .2 1.8 0;
+}
+
+button{
+    border-radius: 8px;
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
+    color: #f9faf8;
+    font-weight: bold;
+    border-style: none;
+}
