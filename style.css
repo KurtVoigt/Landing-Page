@@ -1,22 +1,19 @@
 body{
     display: flex;
-    
+    font-family: 'Dongle', sans-serif;
+    font-size: x-large;
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
 
 }
 
-body > *{
-    height: 40vh;
-}
 
 #top{
-    display: flex;
-    flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
-    height: 50vh;
+    min-height: 500px;
+   
     
     
 }
@@ -24,19 +21,26 @@ body > *{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0;
-    margin: 0;
-    flex: 1;
+    margin-bottom: 4em;
+    margin-top: 1em;
 }
+
+#linksContainer{
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    font-size: 28px;
+}
+
 #logo{
-    font-size: 24px;
+    font-size: 32px;
     
 }
 
 #descriptionAndPhoto{
     display: flex;
     justify-content: space-evenly;
-    flex: 6;
+    
     align-items: center;
 }
 
@@ -68,13 +72,79 @@ body > *{
     border-radius: 10px;
 }
 
-
-
-#linksContainer{
+#secondHeader{
     display: flex;
-    justify-content: space-between;
-    gap: 16px
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#imageSAndSubtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.imageAndSubtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imageAndSubtext > img{
+    border-style: groove;
+    border-color: rgba(128, 128, 128,.7);
+    height: 208px;
+    width: 208px;
+}
+
+#thirdTestomonial{
+    margin-top: 2em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 42px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+#fourthCallToAction{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
     
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0;
+    border: 0
+}
+
+#fourthContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    border-radius: 12px;
+    height: 250px;
+    width: 539px
+}
+
+#fourthContainerText{
+    text-align: center;
+    
+}
+
+#fourthContainerText > h5{
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -87,7 +157,10 @@ a:hover{
 
 #fifthFooter
 {
-    flex: .2 1.8 0;
+   text-align: center;
+   background-color: #1f2937;
+   margin: 0;
+   padding: 0;
 }
 
 button{
